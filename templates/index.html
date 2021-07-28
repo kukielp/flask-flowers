@@ -1,0 +1,3 @@
+{% for flower in files %}
+    <img width="100px" src="{{ url_for('static', filename='images/' + flower) }}">{{ image }}
+{% endfor %}
